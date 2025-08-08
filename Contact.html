@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Modit Finance</title>
+  <meta name="description" content="Contact Modit — collaborate or request resources." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="page dark">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="assets/img/logo.svg" alt="logo" class="logo" /><div class="brand-text"><strong>Modit Finance</strong></div></a>
+      <nav class="site-nav">
+        <a href="blog.html">Blog</a>
+        <a href="resources.html">Resources</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="btn-outline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Contact</h1>
+    <p class="lead">Want to collaborate or need a resource? Send me a message.</p>
+
+    <!-- Using Formspree as an example (replace action with your form ID) -->
+    <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+      <label>
+        Name
+        <input type="text" name="name" required />
+      </label>
+
+      <label>
+        Email
+        <input type="email" name="_replyto" required />
+      </label>
+
+      <label>
+        Message
+        <textarea name="message" rows="6" required></textarea>
+      </label>
+
+      <button class="btn" type="submit">Send message</button>
+      <p class="hint">Replace the form action URL with your Formspree (or your backend) endpoint.</p>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year7"></span> Modit Tyagi</div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
